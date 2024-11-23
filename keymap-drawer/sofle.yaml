@@ -40,7 +40,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - .
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - Z
   - X
   - C
@@ -52,19 +52,19 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:backspace-reverse-outline$$
   - PLAY PAUSE
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
   - layer1
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-control$$
+  - RETURN
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - '2'
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:apple-keyboard-control$$
   layer1:
   - $$mdi:keyboard-esc$$
   - '!'
@@ -78,7 +78,7 @@ layers:
   - '*'
   - (
   - )
-  - {t: '-', s: _}
+  - RGB EFF
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '`', s: '~'}
   - $$mdi:mouse-left-click-outline$$
@@ -89,9 +89,9 @@ layers:
   - PG UP
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - RGB EFF
-  - RGB SAI
+  - {t: '-', s: _}
   - {t: '=', s: +}
+  - RGB SAI
   - {t: '$$mdi:transfer$$', type: trans}
   - '~'
   - {t: '-', s: _}
@@ -120,12 +120,12 @@ layers:
   - F12
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - HOME
+  - {t: HOME, type: held}
   - END
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-shift$$
   - KP 0
   - KP 1
   - KP 2
