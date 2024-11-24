@@ -68,11 +68,11 @@
 
         layer_2 {
             bindings = <
-&kp TILDE   &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F1  &kp F2          &kp F3          &kp F4           &kp F5       &kp F6
-&trans      &bt BT_CLR    &bt BT_CLR_ALL  &out OUT_TOG  &trans        &trans          &mmv MOVE_DOWN   &kp F7  &kp F8          &kp F9          &kp F10          &kp F11      &kp F12
-&trans      &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &trans  &trans          &kp UP_ARROW    &trans           &kp LBRC     &kp RBRC
-&sys_reset  &bootloader   &trans          &trans        &trans        &trans          &mmv MOVE_RIGHT  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &bootloader  &sys_reset
-&trans      &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans          &trans          &trans           &trans
+&kp TILDE   &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4       &mmv MOVE_UP     &kp F1  &kp F2          &kp F3          &kp F4           &kp F5       &kp F6
+&trans      &bt BT_CLR    &bt BT_CLR_ALL  &out OUT_TOG  &trans        &kp LOCKING_NUM    &mmv MOVE_DOWN   &kp F7  &kp F8          &kp F9          &kp F10          &kp F11      &kp F12
+&trans      &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans             &mmv MOVE_LEFT   &trans  &trans          &kp UP_ARROW    &trans           &kp LBRC     &kp RBRC
+&sys_reset  &bootloader   &trans          &trans        &trans        &trans             &mmv MOVE_RIGHT  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &bootloader  &sys_reset
+&trans      &trans        &trans          &trans        &trans        &trans             &mkp LCLK        &trans  &trans          &trans          &trans           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
