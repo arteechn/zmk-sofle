@@ -62,8 +62,8 @@ layers:
   - Gui+ E
   - RETURN
   - {t: '$$mdi:backspace$$', type: backspace}
-  - '2'
   - $$mdi:apple-keyboard-shift$$
+  - '2'
   - $$mdi:apple-keyboard-control$$
   layer1:
   - $$mdi:keyboard-esc$$
@@ -89,8 +89,8 @@ layers:
   - PG UP
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: '-', s: _}
-  - {t: '=', s: +}
+  - '{'
+  - '}'
   - RGB SAI
   - END
   - '~'
@@ -105,7 +105,7 @@ layers:
   - KP 9
   - RGB SAD
   - RGB TOG
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - Sft+ COPY
   - Sft+ PASTE
   - COPY
@@ -116,8 +116,8 @@ layers:
   - KP 4
   - KP 5
   - KP 6
-  - F11
-  - F12
+  - <
+  - '>'
   - $$mdi:volume-off$$
   - Gui+ E
   - {type: held}
@@ -125,7 +125,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - KP 0
   - KP 1
   - KP 2
@@ -149,7 +149,7 @@ layers:
   - BT CLR ALL
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - LOCKING NUM
+  - KP NUMLOCK
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - F7
   - F8
@@ -168,8 +168,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - '{'
-  - '}'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -192,6 +192,6 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
