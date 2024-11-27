@@ -106,27 +106,27 @@ layers:
   - RGB SAD
   - RGB TOG
   - {t: '$$mdi:transfer$$', type: trans}
-  - Sft+ COPY
-  - Sft+ PASTE
-  - COPY
-  - PASTE
-  - RGB SPI
+  - Sft+Ctl+ C
+  - Sft+Ctl+ V
+  - Ctl+ C
+  - Ctl+ V
+  - Gui+Sft+ S
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - RGB BRI
+  - KP 0
   - KP 4
   - KP 5
   - KP 6
   - <
   - '>'
   - $$mdi:volume-off$$
-  - Gui+ E
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - KP 0
+  - {t: '$$mdi:transfer$$', type: trans}
   - KP 1
   - KP 2
   - KP 3
@@ -149,7 +149,7 @@ layers:
   - BT CLR ALL
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - KP NUMLOCK
+  - {t: KP NUMLOCK, h: toggle}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - F7
   - F8
