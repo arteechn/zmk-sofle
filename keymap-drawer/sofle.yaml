@@ -55,16 +55,16 @@ layers:
   - AGr+ N
   - PLAY PAUSE
   - $$mdi:apple-keyboard-option$$
-  - layer1
   - {t: '$$mdi:backspace$$', type: backspace}
+  - layer1
   - $$mdi:keyboard-space$$
   - RETURN
   - Sft+Gui+ S
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - '2'
+  - $$mdi:keyboard-space$$
   layer1:
   - {t: '`', s: '~'}
   - '!'
@@ -96,7 +96,7 @@ layers:
   - '~'
   - {t: '-', s: _}
   - {t: '=', s: +}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-shift$$
   - '&mkp MB5'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - PG DN
@@ -120,8 +120,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
@@ -175,7 +175,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB COLOR HSB(165,100,41)
+  - RGB COLOR HSB(54,68,76)
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
@@ -193,8 +193,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   '3':
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
