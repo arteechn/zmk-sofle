@@ -55,8 +55,8 @@ layers:
   - AGr+ N
   - PLAY PAUSE
   - $$mdi:apple-keyboard-option$$
+  - $$mdi:backspace-reverse-outline$$
   - layer1
-  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
   - RETURN
   - Sft+Gui+ S
@@ -120,8 +120,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
