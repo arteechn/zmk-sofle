@@ -13,7 +13,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - '&numpad'
+  - {t: '3', h: toggle}
   - $$mdi:keyboard-esc$$
   - Q
   - W
