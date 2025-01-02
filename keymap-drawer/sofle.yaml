@@ -55,7 +55,7 @@ layers:
   - AltGr+N
   - PLAY PAUSE
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
   - layer1
   - $$mdi:keyboard-space$$
   - RETURN
