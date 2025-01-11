@@ -10,9 +10,9 @@ layers:
   - $$mdi:arrow-up-bold$$
   - Sft+Ctl+$$mdi:keyboard-esc$$
   - Gui+Sft+S
-  - Ctl+$$mdi:keyboard-tab$$
-  - Ctl+T
   - Alt+$$mdi:keyboard-tab$$
+  - Ctl+T
+  - Ctl+$$mdi:keyboard-tab$$
   - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-esc$$
   - Q
@@ -60,11 +60,11 @@ layers:
   - layer1
   - RETURN
   - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
   - '3'
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   layer1:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
