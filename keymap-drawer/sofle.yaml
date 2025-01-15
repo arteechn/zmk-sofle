@@ -2,7 +2,7 @@ layout: {qmk_keyboard: sofle/rev1}
 layers:
   LAYER0:
   - $$mdi:apple-keyboard-control$$
-  - Ctl+W
+  - {t: '$$mdi:transfer$$', type: trans}
   - Alt+Ctl+$$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+$$mdi:apple-keyboard-control$$
@@ -12,8 +12,8 @@ layers:
   - Gui+Sft+S
   - Alt+$$mdi:keyboard-tab$$
   - Ctl+T
+  - Ctl+W
   - Ctl+$$mdi:keyboard-tab$$
-  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-esc$$
   - Q
   - W
@@ -56,13 +56,13 @@ layers:
   - PLAY PAUSE
   - $$mdi:apple-keyboard-control$$
   - RGUI
-  - $$mdi:keyboard-space$$
-  - layer1
   - RETURN
+  - layer1
+  - $$mdi:keyboard-space$$
   - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:apple-keyboard-shift$$
-  - '3'
   - {t: '$$mdi:backspace$$', type: backspace}
+  - '3'
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
   layer1:
@@ -106,16 +106,16 @@ layers:
   - '|'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Sft+Ctl+C
-  - Sft+Ctl+V
+  - Ctl+Z
+  - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+C
   - Ctl+V
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - HOME
   - END
-  - Sft+HOME
-  - Sft+END
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
