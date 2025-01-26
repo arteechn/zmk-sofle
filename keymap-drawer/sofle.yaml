@@ -56,7 +56,7 @@ layers:
   - PLAY PAUSE
   - $$mdi:apple-keyboard-control$$
   - RGUI
-  - RETURN
+  - $$mdi:apple-keyboard-option$$
   - layer1
   - $$mdi:keyboard-space$$
   - $$mdi:mouse-scroll-wheel$$
@@ -260,3 +260,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [34, 35, 36]
+  k: RETURN
