@@ -14,7 +14,7 @@ layers:
   - Ctl+T
   - Ctl+W
   - Ctl+$$mdi:keyboard-tab$$
-  - $$mdi:keyboard-esc$$
+  - $$mdi:backspace-reverse-outline$$
   - Q
   - W
   - E
@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - AltGr+N
+  - '|'
   - PLAY PAUSE
   - $$mdi:apple-keyboard-control$$
   - RGUI
@@ -103,14 +103,14 @@ layers:
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: \, s: '|'}
-  - '|'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Z
-  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+C
   - Ctl+V
-  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - HOME
   - END
@@ -263,3 +263,15 @@ layers:
 combos:
 - p: [34, 35, 36]
   k: RETURN
+- p: [14, 15]
+  k: $$mdi:keyboard-esc$$
+- p: [46, 35]
+  k: AltGr+N
+- p: [59, 51]
+  k: {t: 'Ctl+$$mdi:backspace$$', type: backspace}
+- p: [56, 15, 16]
+  k: Gui+E
+- p: [41, 42]
+  k: {t: C, h: '$$mdi:apple-keyboard-command$$'}
+- p: [43, 42]
+  k: {t: V, h: '$$mdi:apple-keyboard-command$$'}
