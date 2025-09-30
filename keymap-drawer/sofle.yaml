@@ -14,7 +14,7 @@ layers:
   - Ctl+T
   - Ctl+W
   - Ctl+$$mdi:keyboard-tab$$
-  - $$mdi:backspace-reverse-outline$$
+  - {t: 'Alt+$$mdi:backspace$$', type: backspace}
   - Q
   - W
   - E
@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - '|'
+  - {t: \, s: '|'}
   - PLAY PAUSE
   - $$mdi:apple-keyboard-control$$
   - RGUI
@@ -102,7 +102,7 @@ layers:
   - PG UP
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: \, s: '|'}
+  - '|'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
