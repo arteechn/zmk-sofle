@@ -4,6 +4,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200  // 600
@@ -97,7 +98,7 @@
             >;
 
             sensor-bindings = <&scroll_keypress LC(RIGHT) LC(LEFT)>;
-            display-name = "QWERTY";
+            display-name = "Write";
         };
 
         Movement {
@@ -123,16 +124,16 @@
             >;
 
             sensor-bindings = <&scroll_encoder>;
-            label = "NumsSymbs";
+            label = "N&Sym";
         };
 
         BLE {
             bindings = <
-&trans      &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                       &trans  &trans  &trans  &trans  &trans   &trans       &trans
-&trans      &bt BT_CLR    &bt BT_CLR_ALL  &out OUT_TOG  &trans        &rgb_ug RGB_TOG                    &trans  &kp F1  &kp F2  &kp F3  &kp F4   &kp F5       &kp F6
-&trans      &out OUT_USB  &out OUT_BLE    &trans        &trans        &rgb_ug RGB_EFF                    &to 0   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11      &kp F12
-&sys_reset  &bootloader   &trans          &trans        &trans        &rgb_ug RGB_COLOR_HSB(54,68,76)    &trans  &trans  &trans  &trans  &trans   &bootloader  &sys_reset
-&trans      &trans        &trans          &trans        &trans        &trans                             &trans  &trans  &trans  &trans  &trans   &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                       &trans  &trans  &trans  &trans  &trans   &trans   &trans
+&trans  &bt BT_CLR    &trans        &out OUT_TOG  &trans        &rgb_ug RGB_TOG                    &trans  &kp F1  &kp F2  &kp F3  &kp F4   &kp F5   &kp F6
+&trans  &out OUT_USB  &out OUT_BLE  &trans        &trans        &rgb_ug RGB_EFF                    &to 0   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+&trans  &trans        &trans        &trans        &trans        &rgb_ug RGB_COLOR_HSB(54,68,76)    &trans  &trans  &trans  &trans  &trans   &trans   &trans
+&trans  &trans        &trans        &trans        &trans        &trans                             &trans  &trans  &trans  &trans  &trans   &trans
             >;
 
             sensor-bindings = <&scroll_keypress LC(RIGHT) LC(LEFT)>;
@@ -141,12 +142,26 @@
 
         GamingWASD {
             bindings = <
-&kp ESCAPE        &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4  &kp N5    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp TAB           &trans          &kp Q         &kp W             &kp E         &kp R     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp A         &kp S             &kp D         &kp T     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans            &trans          &trans        &trans            &trans        &trans    &to 0   &trans  &trans  &trans  &trans  &trans  &trans
-&trans            &trans          &trans        &kp LEFT_CONTROL  &kp SPACE     &kp F     &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESCAPE        &none           &none             &none         &none         &none     &none  &kp F5  &none  &kp F8  &none  &none  &none
+&kp TAB           &none           &kp Q             &kp W         &kp E         &kp R     &none  &none   &none  &none   &none  &none  &none
+&kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp A             &kp S         &kp D         &kp T     &to 5  &none   &none  &none   &none  &none  &none
+&none             &kp NUMBER_1    &kp NUMBER_2      &kp NUMBER_3  &kp NUMBER_4  &kp N5    &to 0  &none   &none  &none   &none  &none  &none
+&none             &none           &kp LEFT_CONTROL  &kp Z         &kp SPACE     &kp F     &none  &none   &none  &none   &none  &none
             >;
+
+            label = "WASD";
+        };
+
+        LoL {
+            bindings = <
+&trans   &trans            &trans          &trans        &trans        &kp P        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp B    &kp NUMBER_1      &kp NUMBER_2    &kp NUMBER_3  &kp NUMBER_4  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB  &kp Q             &kp W           &kp E         &kp R         &kp T        &to 4   &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &trans            &kp S           &kp D         &kp F         &trans       &to 0   &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp C         &kp LEFT_ALT  &kp SPACE    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+
+            label = "QWER";
         };
     };
 
