@@ -104,7 +104,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Gui+$$mdi:keyboard-space$$
   - Gui+4
   - Ctl+Z
   - Ctl+X
