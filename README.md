@@ -8,3 +8,9 @@ If you need the 3D printed model file or if there are any abnormalities with the
 
 <img src="keymap-drawer/sofle.svg" >
 
+## Editing this configuration
+
+- Use `main` for all keymap changes; it contains the definitive layout and build configuration.
+- Current mod-tap settings are `tap-preferred` with a 200 ms tapping term.
+- Keymap editors may add `#include <dt-bindings/zmk/pointing.h>`. The compatibility header at `config/dts/dt-bindings/zmk/pointing.h` forwards to the `mouse.h` definitions used by the pinned firmware branch, so the generated include can stay in the keymap.
+- Reload `main` in the editor after changes made directly on GitHub, before saving again, to avoid replacing newer settings with an older loaded copy.
