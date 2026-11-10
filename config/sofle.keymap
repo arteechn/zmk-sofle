@@ -65,11 +65,11 @@
 
         QWERTY {
             bindings = <
-&kp TILDE               &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3    &kp NUMBER_4      &kp N5       &kp LG(LS(S))  &kp NUMBER_6   &kp N7            &kp N8          &kp N9        &kp N0             &kp LC(LEFT_SHIFT)
-&kp BACKSPACE           &kp Q           &kp W         &kp E           &kp R             &kp T        &kp LS(LG(T))  &kp Y          &kp U             &kp I           &kp O         &kp P              &kp RC(BACKSPACE)
-&mt LEFT_CONTROL TAB    &mt LEFT_GUI A  &kp S         &mt LEFT_ALT D  &mt LEFT_SHIFT F  &kp G        &to 3          &kp H          &mt LEFT_SHIFT J  &mt LEFT_ALT K  &kp L         &mt LEFT_GUI SEMI  &mt LEFT_CONTROL APOS
-&mt RIGHT_ALT CAPSLOCK  &kp Z           &kp X         &kp C           &kp V             &kp B        &to 4          &kp N          &kp M             &kp COMMA       &kp DOT       &kp FSLH           &kp BACKSLASH
-&kp C_PLAY_PAUSE        &kp LCTRL       &kp LEFT_ALT  &kp CAPSLOCK    &mo 1             &kp SPACE    &trans         &kp BACKSPACE  &mo 2             &kp CAPSLOCK    &kp LEFT_ALT  &kp LEFT_CONTROL
+&kp TILDE             &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3    &kp NUMBER_4      &kp N5       &kp LG(LS(S))  &kp NUMBER_6   &kp N7            &kp N8          &kp N9        &kp N0             &kp LC(LEFT_SHIFT)
+&kp BACKSPACE         &kp Q           &kp W         &kp E           &kp R             &kp T        &kp LS(LG(T))  &kp Y          &kp U             &kp I           &kp O         &kp P              &kp RC(BACKSPACE)
+&mt LEFT_CONTROL TAB  &mt LEFT_GUI A  &kp S         &mt LEFT_ALT D  &mt LEFT_SHIFT F  &kp G        &to 3          &kp H          &mt LEFT_SHIFT J  &mt LEFT_ALT K  &kp L         &mt LEFT_GUI SEMI  &mt LEFT_CONTROL APOS
+&kp RIGHT_ALT         &kp Z           &kp X         &kp C           &kp V             &kp B        &to 4          &kp N          &kp M             &kp COMMA       &kp DOT       &kp FSLH           &kp BACKSLASH
+&kp C_PLAY_PAUSE      &kp LCTRL       &kp LEFT_ALT  &kp CAPSLOCK    &mo 1             &kp SPACE    &trans         &kp BACKSPACE  &mo 2             &kp CAPSLOCK    &kp LEFT_ALT  &kp LEFT_CONTROL
             >;
 
             sensor-bindings = <&scroll_keypress LC(RIGHT) LC(LEFT)>;
